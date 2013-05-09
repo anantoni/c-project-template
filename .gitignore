@@ -3,6 +3,8 @@
 *.log
 *.la
 *.lo
+*~
+*.m4
 compile
 config.guess
 config.status
@@ -19,3 +21,5 @@ src/.deps
 lib/.libs
 lib/.deps
 src/seconds
+Makefile
+autom4te.cache
