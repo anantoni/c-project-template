@@ -7,10 +7,10 @@ clean:
 mostlyclean:
 	cd lib;	make clean
 	cd src;	make clean
-	rm -f compile config.* depcomp install-sh libtool stamp-h1 main.sh autom4te.cache Makefile.in missing aclocal.m4
+	rm -rf compile config.* depcomp install-sh ltmain.sh libtool stamp-h1 main.sh autom4te.cache Makefile.in missing aclocal.m4
 
 dist-clean:
 	cd lib; make dist-clean
 	cd src; make dist-clean
-	rm -f compile config.* depcomp install-sh libtool stamp-h1 main.sh autom4te.cache Makefile.in missing aclocal.m4 Makefile configure
+	rm -rf compile config.* depcomp install-sh ltmain.sh libtool stamp-h1 main.sh autom4te.cache Makefile.in missing aclocal.m4 Makefile configure
 	

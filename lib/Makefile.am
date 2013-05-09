@@ -6,4 +6,4 @@ clean:
 	rm -f *.o *.lo Makefile.in
 
 dist-clean:
-	rm -rf *.o *.lo Makefile.in .deps .libs
+	rm -rf *.o *.lo .la  Makefile.in .deps .libs
